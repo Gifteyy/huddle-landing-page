@@ -1,0 +1,169 @@
+body{
+    background: hsl(0, 0%, 100%);
+    position: relative;
+    width: 1550px;
+    
+}
+
+button{
+    background: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    box-shadow: 1px 1px 1px rgba(0%, 0%, 0%, 0.1);
+
+
+}
+
+button:hover{
+    background: burlywood;
+}
+
+
+.free{
+    padding-left: 28px;
+    padding-right: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: hsl(0, 0%, 100%);
+    color: black;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.fans{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.huddle{
+    padding-right: 15%;
+}
+.logo img{
+    margin-left:20px ;
+
+}
+
+button, .start{
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+header{
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(235, 247, 253);
+    height: 500px;
+
+    
+
+}
+.form{
+  
+    box-shadow: 2px 2px 2px 3px rgba(0%, 0%, 0%, 0.1);
+    margin: 40px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+main{
+    background: hsl(0, 0%, 100%);
+    Font size: 18px;
+}
+#ready{
+    display: block;
+    width: 600px;
+    height: 150px;
+    margin-left: 25%;
+    text-align: center;
+    position: absolute ;
+    bottom: 230px;
+    background: white;
+    
+}
+#ready, button{
+    margin-top: 20px;
+    
+
+}
+#ready{
+    text-align:center;
+    margin-top: 20px;
+}
+
+.lists{
+    display: flex;
+    margin-top: 4%;
+}
+ul li{
+    padding-top: 8px;
+}
+footer{
+   
+    background: hsl(192, 100%, 9%);;
+    height: 300px;
+    position: static;
+    margin-top: 200px;
+    color: rgb(192, 189, 189);
+    font-size: 12px;
+    
+}
+.all{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+ 
+#flow{
+    display: flex;
+    gap:200px;
+}
+.copy{
+    margin-top: 200px;
+    font-size: 7px;
+    margin-right: 40px;
+}
+.loop img{
+margin-bottom: 10px;
+} 
+
+.location{ display: flex;
+    gap: 10px;
+}
+.phone{ display: flex;
+    gap: 10px;
+}
+.email{display: flex;
+    gap: 10px;
+}
+.icons{
+    margin-top: 60px;
+    margin-left: 300px;
+    gap: 50px;
+}
+.fb{ 
+    border: 1px solid white;
+    border-radius: 200%;
+    margin-right: 5px;
+}
+.tweet{
+    border: 1px solid white;
+    border-radius: 300%;
+    margin-right: 5px;
+}
+.ig{
+    border: 1px solid white;
+    border-radius: 200%;
+    margin-right: 5px;
+}
